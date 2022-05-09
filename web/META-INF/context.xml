@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ASSIGNMENTSE150294">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" name="DSBlink" password="123456" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=DelectRes" username="huylnh"/>
+</Context>

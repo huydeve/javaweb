@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Create Account</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Create New Account</div>
+        <form action="CreateAccountServlet" method="POST">
+            Username* <input type="text" name="txtUsername" value="" />(6 - 20)<br><!-- comment -->
+            Password* <input type="password" name="txtPassword" value="" />(6 - 30)<br><!-- comment -->
+            Confirm* <input type="password" name="txtConfirm" value="" /><br><!-- comment -->
+            Full name* <input type="text" name="txtFullname" value="" />(2 - 50)<br><!-- comment -->
+            <input type="submit" value="Create Account" name="btAction" />
+            <input type="reset" value="Reset" />
+        </form>
+    </body>
+</html>

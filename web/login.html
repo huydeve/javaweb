@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <script src="js/checkFrom.js"></script>
+    </head>
+
+    <body>
+
+        <h1>LOGIN</h1>
+        <p style = "color: red" id="validate"></p>
+        <form name="myForm" action="loginController" onsubmit="return validateForm()" method="POST">
+            <input type="text" placeholder="Username" name="txtUsername" value="" /><br>
+            <input type="password" placeholder="Password" name="txtPassword" value="" /><br>
+            <br>
+            <span>Forgot password?</span>
+            <a href="createAccountPage">Registration </a>
+            <br>
+            <input type="reset" value="Reset" /><br>
+            <input type="submit" value="Login" />
+        </form>
+    </body>
+
+</html>
